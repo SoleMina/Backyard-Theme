@@ -1,58 +1,45 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box; }
 
 a {
   text-decoration: none; }
 
-header {
-  width: 100%;
-  color: black;
-  background-color: white; }
-
-.navbar-default {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.1);
-  /*height:10px;*/
-  border: 1px solid rgba(255, 255, 255, 0.3); }
+.banner {
+  background-image: url("../images/1920x665-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+  .banner .opaco {
+    background-color: rgba(2, 14, 23, 0.53);
+    width: 100%;
+    height: 100%;
+    padding: 8% 5%; }
+    .banner .opaco h1 {
+      font-size: 4em;
+      margin-bottom: 10%; }
+    .banner .opaco p {
+      margin-bottom: 7%; }
+    .banner .opaco .btn {
+      border-radius: 200px;
+      padding: 1.5% 4%;
+      margin: 0% 1% 5%; }
+    .banner .opaco a {
+      display: inline-block;
+      color: white;
+      margin: 0% 1%; }
+      .banner .opaco a i {
+        margin-right: 5px; }
+    .banner .opaco p {
+      display: inline-block;
+      margin-right: 5%; }
 
 .navbar {
-  width: 100%;
-  /*position: absolute;*/ }
-
-.navbar-collapse {
-  padding-right: 0px;
-  padding-left: 12px; }
-
-.enlaces h6 {
-  font-size: 14px; }
-
-.nav > li > a {
-  padding: 18px 19px 15px 9px; }
-
-ul {
-  padding-left: 22px; }
-
-.navbar-brand {
-  padding: 8px 0 8px 25px; }
-
-.imagen1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/1920x665-1.jpg");
-  background-repeat: no-repeat;
-  background-position: fixed;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 52% 0%;
-  height: 300px; }
-
-/*.row{
-	border:1px solid red;
-}
-*/
-.prueba, .divider, .parrafo {
-  padding-left: 40%;
-  color: white; }
+  background-color: white;
+  border-color: transparent; }
+  .navbar .navbar-brand {
+    padding: 0; }
 
 button {
   margin-top: 4%;
@@ -128,5 +115,80 @@ h3 {
 .botonesbig {
   text-align: left;
   padding-left: 7%; }
+
+.parrafo2 {
+  color: white; }
+
+.botonesbig p {
+  margin-top: 2%; }
+
+.iconos1 {
+  margin-left: 2%;
+  margin-bottom: 2%; }
+
+.ipod {
+  width: 89%;
+  padding-top: 11%;
+  padding-left: 9%;
+  padding-bottom: 11%; }
+
+.optimaze {
+  padding-top: 13%;
+  padding-right: 8%; }
+
+.parrafo3 {
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.btn1 {
+  padding: 1% 2%;
+  border: 2px solid #3CB1F7;
+  border-radius: 10px; }
+
+.recreate, .recreate1 {
+  text-align: center; }
+
+.recreate1 {
+  margin-bottom: 4%; }
+
+.ipod1 {
+  width: 80%;
+  padding-left: 20%;
+  padding-top: 10%; }
+
+.cuerpo {
+  background-color: F5F5F5; }
+
+.parrafo4 {
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.parrafo5 {
+  padding-right: 20%;
+  padding-bottom: 10%; }
+
+.cuerpo1 {
+  background-color: #F6F6F6; }
+
+footer {
+  text-align: center;
+  padding: 3% 1%; }
+
+.red-social {
+  border: 1px solid #42AEEC;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0px 2px 10px;
+  padding-top: 9px; }
+
+.red-social i {
+  font-size: 20px;
+  color: #42AEEC; }
+
+.great {
+  color: #42AEEC; }
 
 /*# sourceMappingURL=main.css.map */
